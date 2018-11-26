@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createtableview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// &lt;#descript#&gt;
+UITableView * &lt;#name#&gt; = [[UITableView alloc] initWithFrame:&lt;#(CGRect)#&gt; style:&lt;#(UITableViewStyle)#&gt;];
+[&lt;#view#&gt; addSubview:&lt;#name#&gt;];
+&lt;#name#&gt;.delegate = &lt;#delegate#&gt;;
+&lt;#name#&gt;.dataSource = &lt;#dataSource#&gt;;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2F478C06-7862-480A-9804-DBC9A270D374</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>createtableview</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CreateTableView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
