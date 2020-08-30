@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>createview</string>
+	<string>addresstype</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#descript#&gt;
-    UIView * &lt;#name#&gt; = [[UIView alloc] initWithFrame:CGRectZero];
-    [&lt;#view#&gt; addSubview:&lt;#name#&gt;];</string>
+	<string>@property (nonatomic, &lt;#attrite#&gt;) &lt;#type#&gt; * &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>61F058A6-8D1C-4630-9248-068F4EC60D85</string>
+	<string>172D3036-C7D4-4E53-8431-B168EB54703A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>createview</string>
+	<string>址类型属性</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CreateVIew</string>
+	<string>AddressType</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

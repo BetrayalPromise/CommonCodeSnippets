@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>windowinit</string>
+	<string>activelayout</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];</string>
+	<string>(&lt;#Layout#&gt;).isActive = true</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D875F6F4-6525-4DA4-B24C-914AC92DAD6B</string>
+	<string>09B95471-2724-472E-A13D-337138581BDF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>WindowInit</string>
+	<string>布局激活</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>WindowInit</string>
+	<string>ActiveLayout</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

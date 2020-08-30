@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>userdefault</string>
+	<string>codeformat0</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSUserDefaults standardUserDefaults]</string>
+	<string>// clang-format off
+
+// clang-format on
+
+/* clang-format off */
+
+/* clang-format on */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>60068312-2657-4016-8AC1-FA94DAA5DEF5</string>
+	<string>4A06435E-AAD4-4395-B7F9-73C16664C30A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UserDefault</string>
+	<string>clang注释</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UserDefault</string>
+	<string>CodeFormat</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

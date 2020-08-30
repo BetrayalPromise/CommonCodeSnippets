@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strongtype</string>
+	<string>namespacerealize</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#type#&gt; * &lt;#name#&gt;;</string>
+	<string>extension &lt;#type#&gt;: NameSpaceWrappable {}
+
+
+extension TypeWrapperProtocol where WrappedType: &lt;#type#&gt; {
+
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EDC6B1F3-7FDB-46FC-A6E5-21954E57038A</string>
+	<string>1C84A259-8160-4AC9-B311-A4414268F274</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>StrongType</string>
+	<string>命名空间实现</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>StrongType</string>
+	<string>NameSpaceRealize</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

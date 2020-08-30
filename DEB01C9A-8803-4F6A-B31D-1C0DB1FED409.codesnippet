@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>createbutton</string>
+	<string>swiftwindow</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#descript#&gt;
-UIButton * &lt;#name#&gt; = [[UIButton alloc] initWithFrame:CGRectZero];
-[&lt;#view#&gt; addSubview:&lt;#name#&gt;];</string>
+	<string>self.window = UIWindow(frame: UIScreen.main.bounds)
+self.window?.backgroundColor = UIColor.white
+self.window?.makeKeyAndVisible()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0AAE69AE-28B4-4C42-994F-421AD91546B8</string>
+	<string>DEB01C9A-8803-4F6A-B31D-1C0DB1FED409</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>createbutton</string>
+	<string>Swift创建Window</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CreateButton</string>
+	<string>Swift-Window</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

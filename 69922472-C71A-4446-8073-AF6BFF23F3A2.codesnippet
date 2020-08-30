@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>propertywrapper</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@propertyWrapper
+struct PropertyStroage&lt;T&gt; {
+    var wrappedValueStorage: T
+
+    init(defaultValue: T) {
+        self.wrappedValueStorage = defaultValue
+    }
+
+    var wrappedValue: T? {
+        get {
+            return self.wrappedValueStorage
+        }
+        set {
+            guard let value: T = newValue else {
+                debugPrint("set调用无效")
+                return
+            }
+            self.wrappedValueStorage = value
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>69922472-C71A-4446-8073-AF6BFF23F3A2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>属性包裹</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PropertyWrapper</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

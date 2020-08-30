@@ -6,16 +6,16 @@
 	<string>valuetype</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>15CC519B-4EDB-469E-94BD-3C8F9745761F</string>
+	<string>07F8B18F-0F48-476E-97F5-AAA91E5F55C8</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ValueType</string>
+	<string>值类型属性</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>ValueType</string>
 	<key>IDECodeSnippetUserSnippet</key>

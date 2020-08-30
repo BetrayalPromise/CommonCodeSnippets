@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>createimageview</string>
+	<string>objectivecwindow</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#descript#&gt;
-UIButton * &lt;#name#&gt; = [[UIButton alloc] initWithFrame:CGRectZero];
-[&lt;#view#&gt; addSubview:&lt;#name#&gt;];</string>
+	<string>[self setWindow:[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]];
+    [[self window] setBackgroundColor:[UIColor whiteColor]];
+    [[self window] makeKeyAndVisible];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C6DB86B4-A401-44A9-9916-3E6780186792</string>
+	<string>89D9A25E-0C38-49E9-9D70-DC3BC30C4B67</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>createimageview</string>
+	<string>OC创建Window</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CreateImageView</string>
+	<string>Objective-C-Window</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

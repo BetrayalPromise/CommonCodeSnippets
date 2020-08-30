@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>namespacedefine</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/// 需要实现的协议
+public protocol NameSpaceWrappable {
+    associatedtype WrapperType
+    var ns: WrapperType { set get }
+    static var ns: WrapperType.Type { set get }
+}
+
+public extension NameSpaceWrappable {
+    var ns: NameSpaceWrapper&lt;Self&gt; {
+        set {}
+        get {
+            return NameSpaceWrapper(value: self)
+        }
+    }
+
+    static var ns: NameSpaceWrapper&lt;Self&gt;.Type {
+        set {}
+        get {
+            return NameSpaceWrapper.self
+        }
+    }
+}
+
+/// 需要扩展的协议
+public protocol TypeWrapperProtocol {
+    associatedtype WrappedType
+    var wrappedValue: WrappedType { get }
+    init(value: WrappedType)
+}
+
+public struct NameSpaceWrapper&lt;T&gt;: TypeWrapperProtocol {
+    public let wrappedValue: T
+    public init(value: T) {
+        self.wrappedValue = value
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>74A80767-5DFA-4CEC-BF5F-7B762BD85D94</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>命名空间定义</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NameSpaceDefine</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
